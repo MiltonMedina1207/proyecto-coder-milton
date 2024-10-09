@@ -1,0 +1,1618 @@
+/*!header*/
+*{
+     margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+header {
+    background: radial-gradient(circle, #ff9a9e, #fad0c4);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar {
+    background: transparent;
+    /* Fondo transparente */
+    flex-grow: 1;
+    /* Permite que la navbar ocupe el espacio disponible */
+}
+
+.navbar-nav {
+    margin-left: auto;
+    /* Alinea los enlaces a la derecha */
+}
+.navbar-brand img {
+    width: 267px;
+}
+.nav-link {
+    font-family: "Cookie";
+    
+    font-size: 20px;
+    
+    color: #ffffff;
+  
+    text-decoration: none;
+    
+    
+    padding: 10px 30px;
+    
+    display: inline;
+        background-color: #7c5553;
+        margin: 5px;
+       
+        border-radius: 25px;
+        font-weight: bold;
+        /* Negrita en el texto */
+}
+
+.nav-link:hover {
+    font-size: 25px;
+    /* Cambia el tamaño al hacer hover */
+    color: #eea8a2;
+    /* Color al pasar el mouse */
+    
+}
+/*main*/
+.hero  img {
+    width:100%; 
+    
+}
+
+.whatsapp{
+    color: white;
+  
+   
+     text-decoration: none;
+     font-size: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+.whatsapp a img {
+    height: 55px;
+}
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.flex-container {
+    display: flex;
+    /* Activa el modelo de caja flexible */
+    background-color: #FF9DA0;
+    height: auto;
+    /* Cambiar a auto para permitir que se ajuste al contenido */
+    flex-wrap: wrap;
+}
+
+.historia h2 {
+    font-family: "Cookie", cursive;
+}
+
+.flex-container div {
+    flex: 1;
+    /* Permite que cada div crezca de manera igual */
+    box-sizing: border-box;
+    /* Asegura que padding y border se incluyan en el ancho total */
+    text-align: center;
+    padding: 2px;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    margin: 0;
+    /* Elimina el margen en divs */
+}
+
+.flex-container p {
+    font-family: "Space Grotesk", sans-serif;
+    margin: 10px;
+    font-size: 1x;
+    line-height: 1.1;
+    margin-right: 25px;
+    /* Espaciado entre líneas */
+    /* Se elimina la altura fija para que se ajuste automáticamente al contenido */
+}
+.justificado {
+    text-align: justify;
+    
+}
+
+.justificado-derecha {
+    text-align: justify;
+    /* Justifica el texto */
+    margin-left: 30%;
+    
+}
+.video-container {
+    margin: 20px;
+    
+    padding: 10px;
+ display: flex;
+    justify-content: center;
+    
+}
+
+iframe {
+    display: block;
+    
+    margin: auto;
+    
+}
+
+
+.servicios-flex {
+    display: flex;
+    justify-content: space-between;
+    /* O la alineación que prefieras */
+    flex-wrap: wrap;
+    /* Para que se acomoden en múltiples filas si es necesario */
+}
+
+.centrado{
+text-align: center;
+background: radial-gradient(circle, #ff9a9e, #fad0c4);
+padding: 40px;
+padding-top: 30px;
+font-family: "Cookie", cursive;
+font-size: 25px;
+
+}
+
+.centrado h2{
+    margin-bottom: 30px;
+   
+}
+
+
+
+.servicios-flex a{
+    margin-bottom: 30px;
+    background-color: #E34B64;
+    display: inline-block;
+    text-align: center;
+    padding:  5px;
+    text-decoration: none;
+    color: black;
+     border-radius: 5px;
+    border: 2px solid #080808;
+     
+    margin-top: 10px;
+     /* Espacio entre el título y el "Ver más" */
+}
+
+.servicios-flex div {
+    flex: 0 0 calc(33.33% );
+    /* Cada columna ocupa 1/3 del ancho menos un pequeño margen */
+    margin-bottom: 10px;
+    
+    box-sizing: border-box;
+    /* Para incluir el padding y el borde en el ancho total */
+}
+
+
+.servicios-flex img {
+    
+    width: 250px;
+   
+    height: 250px;
+  
+    border-radius: 40%;
+    
+    object-fit: cover;
+    /* Esto asegura que la imagen se ajuste bien dentro del círculo */
+    border: 2px solid #131212;
+    
+}
+.servicios-flex h2{
+    margin-top: 25px;
+}
+
+
+.elegir {
+    text-align: center;
+    background-color: #d8b1af;
+    padding: 40px;
+    padding-top: 30px;
+    font-family: "Cookie", cursive;
+
+}
+.elegirnos-flex {
+    display: flex;
+    justify-content: space-between;
+    /* O la alineación que prefieras */
+    flex-wrap: wrap;
+    /* Para que se acomoden en múltiples filas si es necesario */
+}
+
+.elegirnos-flex a {
+    margin-bottom: 30px;
+    background-color: #ca6464;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid #080808;
+
+    margin-top: 10px;
+    /* Espacio entre el título y el "Ver más" */
+}
+
+.elegir{
+    text-align: center;
+    background-color: #d8b1af;
+    padding: 40px;
+    padding-top: 30px;
+    font-family: "Cookie", cursive;
+
+}
+
+.elegir h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+
+
+
+}
+
+
+.elegirnos-flex img {
+
+    width: 180px;
+
+    height: 180px;
+
+    
+    object-fit: cover;
+    /* Esto asegura que la imagen se ajuste bien dentro del círculo */
+    
+}
+.elegir i{
+    font-size: 28px;
+}
+.elegir {
+    text-align: center;
+    background-color:#E34B64;
+    padding: 60px;
+    padding-top: 30px;
+    font-family: "Cookie", cursive;
+    color:#d8b1af
+
+}
+.elegirnos-flex p{
+    width:250px ;
+    font-family: "Space Grotesk", sans-serif;
+    padding-top: 10px;
+    
+    
+}
+/*?footerrrrrrrrrrrrrrrrrrrrrr*/
+footer div a img {
+    width: 40px;
+    
+}
+footer{
+    background: radial-gradient(circle, #ff9a9e, #fad0c4);
+    
+    padding: 20px;
+    text-align: center;
+    
+    
+       
+}
+footer  a{
+text-decoration: none;
+font-family:"cookie",cursive ;
+color: rgb(228, 66, 120);
+}
+footer i{
+    color: rgb(228, 66, 120);
+    text-shadow: 5px 5px 4px rgba(151, 13, 13, 0.5);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*!contactanosssssssss/*/
+.contactanos{
+    background-color: #f194a4;
+   
+}
+.contactar{
+    margin-left: 45px;
+    font-family: "Cookie", cursive;
+    padding-top: 30px;
+    text-shadow: 5px 5px 4px rgba(219, 89, 72, 0.5);
+    
+    
+}
+.texto-contenido {
+    display: flex;
+    
+    align-items: center;
+   
+   
+}
+
+.texto-contenido i {
+    margin-right: 10px;
+    
+    width: 30px;
+   
+    height: 50px;
+    color: #d64343;
+    font-size: 25px;
+   
+}
+.texto-contenido h2 {
+font-family: "Cookie", cursive;
+
+}
+
+.texto p{
+font-family: "Space Grotesk", sans-serif;
+}
+
+
+
+.texto h2 {
+    display: inline;
+    
+
+}
+
+.telefono-contenido {
+    
+
+    align-items: center;
+    padding: 20px;
+
+}
+
+.telefono-contenido i {
+    margin-right: 10px;
+
+    width: 30px;
+
+    height: 50px;
+    color: #d64343;
+    font-size: 25px;
+
+}
+
+.telefono-contenido h2 {
+    font-family: "Cookie", cursive;
+
+}
+
+
+
+
+.telefono h2 {
+    display: inline;
+
+
+}
+.correo-contenido {
+
+
+    align-items: center;
+    padding: 20px;
+
+}
+
+.correo-contenido i {
+    margin-right: 10px;
+
+    width: 30px;
+
+    height: 50px;
+    color: #d64343;
+    font-size: 25px;
+
+}
+
+.correo-contenido h2 {
+    font-family: "Cookie", cursive;
+
+}
+
+
+
+
+
+
+.contactanos-flex {
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 20px;
+    padding: 30px;
+    
+}
+.contactanos-flex iframe {
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.texto {
+    flex: 1;
+    /* Permite que el texto ocupe el espacio disponible */
+    margin-right: 20px;
+    
+}
+
+.formulario {
+    flex: 1;
+    padding: 15px;
+    background-color: #E34B64;
+    border-radius: 20px;
+    height: 400px;
+    padding: 30px;
+    
+}
+.formulario h2{
+    font-family: "Cookie", cursive;
+  
+    text-align: center;
+}
+
+.form-floating {
+    padding-top: 20px;
+    margin-top: 20px;
+    font-family: "Cookie", cursive;
+}
+.form-control {
+    
+    font-family: "Cookie", cursive;
+    padding-top: 20px;
+    
+}
+
+
+.row {
+    
+    padding-top: 20px;
+    
+}
+.col-12{
+    font-family: "Cookie", cursive;
+    padding-top: 20px;
+    
+}
+.btn-primary{
+ width: 100%;
+ background-color: #eea8a2;
+ border: solid white;
+}
+
+.btn-primary:hover{
+    background-color: #d64343;
+    border: solid white;
+    color: black;
+}
+/*nosotrasssssssss*/
+
+
+
+.nosotras h1 {
+    text-align: center;
+        padding: 20px 0;
+    
+        font-size: 60px;
+    
+        font-family: "Cookie", cursive;
+    text-shadow: 5px 5px 4px rgba(219, 89, 72, 0.5);
+}
+.omaira-flex {
+    display: flex;
+    height: 580px;
+    padding: 15px;
+    flex-wrap: wrap;
+    position: relative;
+    /* Añadir posición relativa al contenedor */
+}
+
+.omaira-flex img {
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    border-radius: 20px;
+    object-fit: cover;
+    
+    
+}
+
+.omaira-flex h2 {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #ff9a9e;
+    width: 850px;
+    margin-bottom: 35px;
+    font-size: 35px;
+    font-family: "Cookie", cursive;
+    color: white;
+
+    /* Ajusta el margen izquierdo para que se superponga */
+    margin-left: -150px;
+    /* Ajusta este valor según sea necesario */
+}
+
+.omaira-flex div {
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2px;
+    color: rgb(12, 12, 12);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+}
+.omaira-flex p {
+    text-align: left;
+    margin-bottom: 25px;
+    
+}
+
+
+.merida-flex {
+    display: flex;
+    height: 580px;
+    padding: 10px;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 20px;
+    /* Asegura que el contenedor sea relativo */
+}
+
+.merida-flex img {
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.merida-flex h2 {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #ff9a9e;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+    /* Ajustar para reducir el espacio */
+    font-size: 35px;
+    font-family: "Cookie", cursive;
+    margin-right: -50px;
+    /* Ajusta este valor según sea necesario */
+    position: relative;
+   
+    color: white;
+}
+
+.merida-flex div {
+    flex: 1;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 2px;
+    color: rgb(12, 12, 12);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.merida-flex p {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.victoria-flex {
+    display: flex;
+    height: 580px;
+    padding: 10px;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 5px;
+}
+
+.victoria-flex img {
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.victoria-flex h2 {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #ff9a9e;
+    width: 850px;
+    margin-bottom: 35px;
+    font-size: 35px;
+    font-family: "Cookie", cursive;
+    margin-left: -150px;
+    /* Ajusta este valor según sea necesario */
+    color: white;
+}
+
+.victoria-flex div {
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2px;
+    color: rgb(12, 12, 12);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+}
+
+.victoria-flex p {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/*Galeria de trabajossssssss*/
+
+.desayunos h1{
+text-align: center;
+    padding: 20px 0;
+
+    font-size: 50px;
+
+    font-family: "Cookie", cursive;
+
+    text-shadow: 5px 5px 4px rgba(163, 49, 49, 0.5);
+}
+
+
+.grid-desayunos {
+   
+    margin-top: 50px;
+    width: 100%;
+    /* Cambié a 0 para evitar espacios externos */
+    display: grid;
+    grid-auto-rows: 480px;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+    gap: 15px;
+    
+    /* Espacio entre los elementos */
+    padding-inline: 15px;
+
+}
+
+.grid-desayunos div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid rgb(240, 81, 108);
+}
+.segundo-item{
+    
+    grid-row: span 2;
+}
+
+.ramillete h1 {
+    text-align: center;
+    padding: 20px 0;
+
+    font-size: 50px;
+
+    font-family: "Cookie", cursive;
+
+    text-shadow: 5px 5px 4px rgba(163, 49, 49, 0.5);
+    color: white;
+}
+.grid-ramillete {
+
+    margin-top: 50px;
+    width: 100%;
+    /* Cambié a 0 para evitar espacios externos */
+    display: grid;
+    grid-auto-rows: 370px;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+    gap: 15px;
+
+    /* Espacio entre los elementos */
+    padding-inline: 40px;
+
+}
+
+.grid-ramillete div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border:solid rgb(236, 199, 205);
+    
+}
+.primer-ramillete{
+    grid-row: span 2;
+   
+}
+
+.tercer-ramillete{
+    grid-row: span 2;
+}
+.desayunos {
+    background-color: #E34B64;
+   
+    padding: 50px 0;
+    
+}
+
+.ramillete {
+    background-color: #ffcccb;
+    
+    padding: 40px 0;
+    
+}
+
+.grid-ramillete {
+
+    margin-top: 50px;
+    width: 100%;
+    /* Cambié a 0 para evitar espacios externos */
+    display: grid;
+    grid-auto-rows: 370px;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+    gap: 15px;
+
+    /* Espacio entre los elementos */
+    padding-inline: 40px;
+
+}
+
+.grid-ramillete div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.primer-ramillete{
+    grid-row: span 2;
+   
+}
+
+.tercer-ramillete{
+    grid-row: span 2;
+}
+.desayunos {
+    background-color: #ffcccb;
+   
+    padding: 50px 0;
+    
+}
+
+.ramillete {
+    background-color: #E34B64; 
+    
+    padding: 40px 0;
+    
+}
+
+.arreglos h1 {
+    text-align: center;
+    padding: 20px 0;
+
+    font-size: 50px;
+
+    font-family: "Cookie", cursive;
+
+    text-shadow: 5px 5px 4px rgba(163, 49, 49, 0.5);
+    
+}
+.grid-arreglos {
+
+    margin-top: 50px;
+    width: 100%;
+    /* Cambié a 0 para evitar espacios externos */
+    display: grid;
+    grid-auto-rows: 370px;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+    gap: 15px;
+
+    /* Espacio entre los elementos */
+    padding-inline: 40px;
+
+}
+
+.grid-arreglos div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid rgb(226, 73, 98);
+}
+
+.primer-arreglo {
+    grid-row: span 2;
+
+}
+
+.tercer-arreglo {
+    grid-row: span 2;
+}
+
+.arreglos {
+    background-color:#FF9DA0;
+
+    padding: 50px 0;
+
+}
+
+/* MEDIAS QUERYYSSSSSSSSS*/
+/* MEDIAS QUERYYSSSSSSSSS INDEX*/
+
+/* media lista */
+   @media screen and (max-width: 1170px) {
+    .historia h2 {
+            margin: 15px 0;
+        }
+    
+        .historia p {
+            font-size: 12px;
+        }
+    
+        .video-container {
+            width: 60%;
+        }
+    
+        .video-container iframe {
+            width: 460px;
+            height: 320px;
+            padding: 20px;
+        }
+    
+        .navbar-toggler {
+            padding: 0.6rem;
+            font-size: 0.8rem;
+        }
+    
+        .navbar-nav .nav-link {
+            font-size: 0.8rem;
+        }
+    
+        .nav-link {
+            font-size: 30px;
+            padding: 12px;
+            margin: 6px;
+            border-radius: 15px;
+        }
+    
+        .nav-link:hover {
+            font-size: 12px;
+        }
+    
+        .navbar-brand img {
+            width: 200px;
+        }
+       .elegirnos-flex {
+           display: flex;
+           flex-wrap: wrap;
+           /* Permitir que los elementos se envuelvan */
+           justify-content: center;
+           
+           margin: 0;
+           
+           padding: 0;
+           
+       }
+
+       .elegirnos-flex div {
+           width: calc(50% - 10px);
+           /* Dos elementos por fila */
+           margin: 5px;
+          text-align: center;
+           padding: 10px;
+          display: flex;
+           /* Usar flex para alinear los elementos internamente */
+           flex-direction: column;
+           
+           align-items: center;
+           
+       }
+
+       .elegirnos-flex img {
+           display: block;
+           
+           margin: 0 auto;
+          
+           max-width: 100%;
+          
+           height: auto;
+           /* Mantiene la proporción de la imagen */
+       }
+
+       .elegirnos-flex h3,
+       .elegirnos-flex p {
+           margin: 10px 0;
+           
+       }
+           .elegir h2,
+           .centrado h2 {
+               font-size: 40px;
+           }
+   }
+    
+
+/*lista la query*/
+@media screen and (max-width:923px) {
+
+.historia h2 {
+margin: 5px 0;
+padding: 2px;
+}
+.historia p{ 
+margin-top: 1px ;
+padding: 5px;
+font-size: 10px;
+}
+ .video-container {
+     width: 50%;
+     /* Ancho total del contenedor */
+ }
+
+ .video-container iframe {
+     width: 400px;
+     /* Ancho del iframe */
+     height: 300px;
+     padding: 20px;
+ }
+ .navbar-toggler {
+     padding: 0.6rem;
+     /* Ajusta el padding */
+     font-size: 0.8rem;
+     /* Cambia el tamaño de la fuente */
+ }
+
+ .navbar-nav .nav-link {
+     font-size: 0.8rem;
+     /* Ajusta el tamaño de los enlaces */
+ }
+
+ .nav-link {
+     font-size: 30px;
+     /* Tamaño de fuente reducido */
+     padding: 12px;
+     /* Padding reducido */
+     margin: 6px;
+     /* Margen reducido */
+     border-radius: 15px;
+     /* Opcional: ajustar el radio de borde */
+ }
+
+ .nav-link:hover {
+     font-size: 12px;
+     /* Tamaño de fuente al hacer hover */
+ }
+
+ .navbar-brand img {
+     width: 200px;
+ }
+.servicios-flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permitir que los elementos se envuelvan */
+    justify-content: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+.servicios-flex div {
+    width: calc(50% - 10px);
+    /* Dos elementos por fila */
+    margin: 50px;
+    /* Espaciado entre elementos */
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicios-flex img {
+    display: block;
+    width: 230px;
+    /* Ajusta el ancho deseado */
+    height: 230px;
+    /* Ajusta la altura deseada */
+    object-fit: cover;
+    /* Mantiene la proporción y recorta si es necesario */
+    margin: 0 auto;
+}
+
+.servicios-flex h3,
+.servicios-flex p {
+    margin: 10px 0;
+}
+ 
+}
+
+
+
+@media screen and (max-width: 855px) {
+    .hero img {
+        height: 220px;
+    }
+
+    .historia h2 {
+        margin: 5px 0;
+        padding: 2px;
+    }
+
+    .historia p {
+        margin-top: 1px;
+        padding: 5px;
+        font-size: 9px;
+    }
+
+    .video-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .video-container iframe {
+        width: 390px;
+        /* Ancho del iframe */
+        height: 300px;
+        padding: 20px;
+    }
+
+    .navbar-toggler {
+        padding: 0.2rem;
+        /* Ajusta el padding */
+        font-size: 0.8rem;
+        /* Cambia el tamaño de la fuente */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.7rem;
+        /* Ajusta el tamaño de los enlaces */
+    }
+
+    .nav-link {
+        font-size: 12px;
+        /* Tamaño de fuente reducido */
+        padding: 6px;
+        /* Padding reducido */
+        margin: 2px;
+        /* Margen reducido */
+        border-radius: 15px;
+        /* Opcional: ajustar el radio de borde */
+    }
+
+    .nav-link:hover {
+        font-size: 10px;
+        /* Tamaño de fuente al hacer hover */
+    }
+
+    .navbar-brand img {
+        width: 160px;
+    }
+
+    .servicios-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px;
+        padding: 20px;
+    }
+
+    .servicios-flex div {
+        width: calc(50% - 20px);
+        /* Dos elementos por fila con mayor separación */
+        margin: 20px;
+        /* Aumentar el margen para mayor separación */
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        /* Asegura que los elementos internos se apilen verticalmente */
+        align-items: center;
+    }
+
+    .servicios-flex img {
+        display: block;
+        width: 190px;
+        /* Ajusta el ancho a 190px */
+        height: 190px;
+        /* Ajusta la altura a 190px */
+        object-fit: cover;
+        /* Mantiene la proporción y recorta si es necesario */
+        margin: 0 auto;
+    }
+
+    .servicios-flex h3,
+    .servicios-flex p {
+        margin: 10px 0;
+        
+    }
+        .elegir h2,
+        .centrado h2 {
+            font-size: 35px;
+        }
+}
+    @media screen and (max-width: 855px) {
+    .hero img {
+        height: 220px;
+    }
+
+    .historia h2 {
+        margin: 5px 0;
+        padding: 2px;
+    }
+
+    .historia p {
+        margin-top: 1px;
+        padding: 5px;
+        font-size: 9px;
+    }
+
+    .video-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .video-container iframe {
+        width: 400px; /* Ancho del iframe */
+        height: 300px;
+        padding: 20px;
+    }
+
+    .navbar-toggler {
+        padding: 0.2rem; /* Ajusta el padding */
+        font-size: 0.8rem; /* Cambia el tamaño de la fuente */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.7rem; /* Ajusta el tamaño de los enlaces */
+    }
+
+    .nav-link {
+        font-size: 12px; /* Tamaño de fuente reducido */
+        padding: 6px; /* Padding reducido */
+        margin: 2px; /* Margen reducido */
+        border-radius: 15px; /* Opcional: ajustar el radio de borde */
+    }
+
+    .nav-link:hover {
+        font-size: 10px; /* Tamaño de fuente al hacer hover */
+    }
+
+    .navbar-brand img {
+        width: 160px;
+    }
+
+    .servicios-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 40px;
+        padding: 20px;
+    }
+
+    .servicios-flex div {
+        width: calc(50% - 20px); /* Dos elementos por fila con mayor separación */
+        margin: 20px; /* Aumentar el margen para mayor separación */
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column; /* Asegura que los elementos internos se apilen verticalmente */
+        align-items: center;
+    }
+
+    .servicios-flex img {
+        display: block;
+        width: 190px; /* Ajusta el ancho a 190px */
+        height: 190px; /* Ajusta la altura a 190px */
+        object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+        margin: 0 auto;
+    }
+
+    .servicios-flex h3,
+    .servicios-flex p {
+        margin: 10px 0;
+    }
+    .servicios-flex, .elegirnos-flex h3{
+        font-size: 22px;
+    }
+    .servicios-flex,
+    .elegirnos-flex p {
+      font-size: 19px;
+    }
+        .elegir h2,
+        .centrado h2 {
+            font-size: 30px;
+        }
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+    .hero img {
+        height: 300px;
+        /* Ajusta la altura de la imagen hero */
+    }
+
+    .historia h2 {
+        font-size: 16px;
+        /* Tamaño uniforme para h2 */
+        margin: 5px 0;
+        padding: 2px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .historia p {
+        font-size: 10px;
+        /* Tamaño uniforme para párrafos */
+        margin: 30px;
+        /* Ajusta el margen */
+        padding: 5px;
+    }
+
+    .video-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        /* Ajusta el padding */
+        align-items: center;
+    }
+
+    .video-container iframe {
+        width: 75%;
+        /* Ajusta el ancho */
+        height: 250px;
+        /* Ajusta la altura del iframe */
+        padding: 10px;
+        /* Ajusta el padding */
+    }
+
+    .navbar-toggler {
+        padding: 0.2rem;
+        /* Ajusta el padding */
+        font-size: 0.8rem;
+        /* Cambia el tamaño de la fuente */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.8rem;
+        /* Ajusta el tamaño de los enlaces */
+    }
+
+    .nav-link {
+        font-size: 12px;
+        /* Tamaño de fuente reducido */
+        padding: 6px;
+        /* Padding reducido */
+        margin: 2px;
+        /* Margen reducido */
+        border-radius: 15px;
+        /* Ajuste de radio de borde */
+    }
+
+    .nav-link:hover {
+        font-size: 10px;
+        /* Tamaño de fuente al hacer hover */
+    }
+
+    .navbar-brand img {
+        width: 150px;
+        /* Ajusta el tamaño de la imagen de la marca */
+    }
+
+    /* Servicios Flex */
+    .servicios-flex {
+        display: flex;
+        flex-direction: column;
+        /* Apilar elementos verticalmente */
+        align-items: center;
+        /* Centra los elementos */
+        margin: 30px;
+        padding: 20px;
+        /* Ajusta el padding */
+    }
+
+    .servicios-flex div {
+        width: 90%;
+        /* Ancho completo para cada elemento */
+        margin: 10px 0;
+        /* Margen ajustado para separación vertical */
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px;
+        
+        /* Ajusta el padding */
+        display: flex;
+        flex-direction: column;
+        /* Apila los elementos internos verticalmente */
+        align-items: center;
+    }
+
+    .servicios-flex img {
+        display: block;
+        width: 190px;
+        /* Mantiene el ancho a 190px */
+        height: 190px;
+        /* Mantiene la altura a 190px */
+        object-fit: cover;
+        /* Mantiene la proporción y recorta si es necesario */
+        margin: 0 auto;
+    }
+
+    .servicios-flex h3
+     {
+        margin: 10px 0;
+        font-size: 20px;
+        /* Tamaño uniforme para h3 y p */
+    }
+        .servicios-flex p{
+            font-size: 15px;
+        }
+
+    /* Elegirnos Flex */
+    .elegirnos-flex {
+        display: flex;
+        flex-direction: column;
+        /* Apilar elementos verticalmente */
+        align-items: center;
+        /* Centra los elementos */
+        margin: 30px;
+        /* Ajusta el margen */
+        padding: 20px;
+        /* Padding ajustado */
+    }
+
+    .elegirnos-flex div {
+        width: 90%;
+        /* Ancho completo para cada elemento */
+        margin: 10px 0;
+        /* Margen ajustado para separación vertical */
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px;
+        /* Ajusta el padding */
+        display: flex;
+        flex-direction: column;
+        /* Apila los elementos internos verticalmente */
+        align-items: center;
+    }
+
+    .elegirnos-flex img {
+        display: block;
+        width: 190px;
+        /* Mantiene el ancho a 190px */
+        height: 190px;
+        /* Mantiene la altura a 190px */
+        object-fit: cover;
+        /* Mantiene la proporción y recorta si es necesario */
+        margin: 0 auto;
+    }
+
+        .elegir h2,
+        .centrado h2 {
+            font-size: 25px;
+        }
+
+    .elegirnos-flex h3,
+    .elegirnos-flex p {
+        margin: 10px 0;
+        /* Ajusta los márgenes */
+        font-size: 16px;
+        /* Tamaño uniforme para h3 y p */
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .hero img {
+        height: 180px;
+        /* Ajusta la altura de la imagen hero */
+    }
+
+    .historia h2 {
+        font-size: 15px;
+        /* Tamaño más pequeño para h2 */
+        margin: 5px 0;
+        padding: 2px;
+        text-align: center;
+        /* Centra el texto */
+    }
+
+    .historia p {
+        font-size: 10px;
+        /* Tamaño más pequeño para párrafos */
+        margin-top: 1px;
+        padding: 5px;
+        text-align: center;
+        /* Centra el texto */
+    }
+
+    .video-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        /* Ajusta el padding */
+        align-items: center;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        /* Ajusta el ancho al 100% */
+        height: 200px;
+        /* Ajusta la altura del iframe */
+        padding: 10px;
+        /* Ajusta el padding */
+    }
+
+    .navbar-toggler {
+        padding: 0.2rem;
+        /* Ajusta el padding */
+        font-size: 0.7rem;
+        /* Cambia el tamaño de la fuente */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.7rem;
+        /* Ajusta el tamaño de los enlaces */
+    }
+
+    .nav-link {
+        font-size: 10px;
+        /* Tamaño de fuente reducido */
+        padding: 5px;
+        /* Padding reducido */
+        margin: 2px;
+        /* Margen reducido */
+        border-radius: 15px;
+        /* Ajuste de radio de borde */
+    }
+
+    .nav-link:hover {
+        font-size: 9px;
+        /* Tamaño de fuente al hacer hover */
+    }
+
+    .navbar-brand img {
+        width: 140px;
+        /* Ajusta el tamaño de la imagen de la marca */
+    }
+
+    /* Servicios Flex */
+    .servicios-flex {
+        display: flex;
+        flex-direction: column;
+        /* Apilar elementos verticalmente */
+        align-items: center;
+        /* Centra los elementos */
+        margin: 20px;
+        /* Ajusta el margen */
+        padding: 10px;
+        /* Ajusta el padding */
+    }
+
+    .servicios-flex div {
+        width: 90%;
+        /* Ancho completo para cada elemento */
+        margin: 10px 0;
+        /* Margen ajustado para separación vertical */
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px;
+        /* Ajusta el padding */
+        display: flex;
+        flex-direction: column;
+        /* Apila los elementos internos verticalmente */
+        align-items: center;
+    }
+
+    .servicios-flex img {
+        display: block;
+        width: 160px;
+        /* Mantiene el ancho a 160px */
+        height: 160px;
+        /* Mantiene la altura a 160px */
+        object-fit: cover;
+        /* Mantiene la proporción y recorta si es necesario */
+        margin: 0 auto;
+    }
+
+    .servicios-flex h3,
+    .servicios-flex p {
+        margin: 10px 0;
+        font-size: 14px;
+        /* Tamaño de fuente ajustado */
+    }
+
+    /* Elegirnos Flex */
+    .elegirnos-flex {
+        display: flex;
+        flex-direction: column;
+        /* Apilar elementos verticalmente */
+        align-items: center;
+        /* Centra los elementos */
+        margin: 20px;
+        /* Ajusta el margen */
+        padding: 10px;
+        /* Padding ajustado */
+    }
+
+    .elegirnos-flex div {
+        width: 90%;
+        /* Ancho completo para cada elemento */
+        margin: 10px 0;
+        /* Margen ajustado para separación vertical */
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px;
+        /* Ajusta el padding */
+        display: flex;
+        flex-direction: column;
+        /* Apila los elementos internos verticalmente */
+        align-items: center;
+    }
+
+    .elegirnos-flex img {
+        display: block;
+        width: 160px;
+        /* Mantiene el ancho a 160px */
+        height: 160px;
+        /* Mantiene la altura a 160px */
+        object-fit: cover;
+        /* Mantiene la proporción y recorta si es necesario */
+        margin: 0 auto;
+    }
+
+    .elegirnos-flex h3 {
+        margin: 10px 0;
+        /* Ajusta los márgenes */
+        font-size: 14px;
+        /* Tamaño de fuente del título ajustado */
+    }
+
+    .elegirnos-flex p {
+        margin: 10px 0;
+        /* Ajusta los márgenes */
+        font-size: 10px;
+        /* Tamaño de fuente del párrafo ajustado */
+    }
+    footer h2 {
+     font-size: 16px;
+     }
+     footer i {
+    font-size: 15px;
+     }
+    .elegir h2, .centrado h2{
+        font-size:20px ;
+    }  
+   .whatsapp{
+        font-size: 30px;
+      }
+}
